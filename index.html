@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clime – Chiến đấu & Cày cuốc</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <button class="burger" id="bg" aria-label="Menu"><i></i><i></i><i></i></button>
+  <span class="logo">CLIME</span><span class="sp"></span><div class="chip" id="chip"></div>
+</header>
+<div id="ov"></div>
+<nav id="drawer">
+  <h3>MENU</h3>
+  <a data-go="home">🏠 Trang chủ</a>
+  <a data-go="launch">⏳ Game ra mắt</a>
+  <a data-go="code">🎁 Code</a>
+  <a data-go="daily">📅 Điểm danh</a>
+  <a data-go="rank">🏆 Xếp hạng</a>
+  <a data-go="admin" id="adm" style="display:none">🛠 Quản trị</a>
+</nav>
+<main id="view"></main>
+
+<div id="auth"><div class="box">
+  <h2 style="margin:0">⚔️ Clime</h2>
+  <div class="tabs"><button id="tl" class="on">Đăng nhập</button><button id="tr">Đăng ký</button></div>
+  <input id="au" placeholder="Tên tài khoản" autocomplete="username">
+  <input id="ap" type="password" placeholder="Mật khẩu" autocomplete="current-password">
+  <input id="ap2" type="password" placeholder="Nhập lại mật khẩu" style="display:none">
+  <div id="msg"></div>
+  <div class="row"><button class="btn" id="go">Đăng nhập</button><button class="btn alt" id="skip">Bỏ qua, xem trước</button></div>
+</div></div>
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
